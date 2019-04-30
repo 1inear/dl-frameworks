@@ -16,7 +16,7 @@ $ git clone https://github.com/natelangholz/dl-frameworks.git
 ```
 or download zip file to the same directory. Then depending on how you want to get started, change your working directory either the `dl-frameworks/keras`, `dl-frameworks/torch`, or `dl-frameworks/fastai` directories. Then build your docker image:
 ```
-$ docker-compose --build up -d
+$ docker-compose up --build -d
 ```
 To find the location of your jupyter notebook run  (change out `keras` for the specific directory you are in; keras,torch,fastai)
 ```
