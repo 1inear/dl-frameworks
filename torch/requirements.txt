@@ -1,0 +1,17 @@
+scipy
+numpy
+scikit-learn
+jupyter
+jupyterlab
+tqdm
+requests
+pillow
+pandas
+matplotlib
+datetime
+torch
+plotly
+network
+opencv-python
+h5py
+torchvision

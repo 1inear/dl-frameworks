@@ -1,0 +1,14 @@
+scipy
+numpy
+scikit-learn
+jupyter
+jupyterlab
+requests
+pillow
+pandas
+matplotlib
+datetime
+torch
+network
+opencv-python
+fastai

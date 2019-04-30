@@ -1,0 +1,14 @@
+scipy
+numpy
+scikit-learn
+jupyter
+jupyterlab
+tqdm
+tensorflow
+keras
+flask
+gevent
+requests
+pillow
+pandas
+matplotlib
