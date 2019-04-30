@@ -10,7 +10,26 @@ The models themselves are trained on the widely used [MNIST data set](http://yan
 
 There is also a dedicated [Kaggle competition called 'Digit Recognizer'](https://www.kaggle.com/c/digit-recognizer/overview) that has a large commentary and variety of methodologies to improve on this process. 
 
+To get started in any of the frameworks (assuming you have Docker already installed) clone this repo to the directory of your choice:
+```
+$ git clone https://github.com/natelangholz/dl-frameworks.git
+```
+or download zip file to the same directory. Then depending on how you want to get started, change your working directory either the `dl-frameworks/keras`, `dl-frameworks/torch`, or `dl-frameworks/fastai` directories. Then build your docker image:
+```
+$ docker-compose --build up -d
+```
+To find the location of your jupyter notebook run  (change out `keras` for the specific directory you are in; keras,torch,fastai)
+```
+$ echo $(docker exec keras_jupyter_1 jupyter notebook list)
+```
+Copy the outputting link to any browser to find your Jupyter session (for those of you with windows machines you will need to change the 0.0.0.0 IP address with your specific IP).  And, finally once you have ended your session, close your browser and run
+```
+$ docker-compose down -v
+```
+
 ### GPU usage
 
 Time permitting this also provides an easy way to show an example of running a Jupyter notebook in Google Colaboratory with free GPU availability, which is then extensible to other more complex machine learning tasks. The Kaggle kernels also allow for free GPU usage but for most people taking their work outside of Kaggle is preferred.
+
+
 
